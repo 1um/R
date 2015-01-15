@@ -1,3 +1,4 @@
+#Задача написать функцию, которая выберет больницы с найменьшей гибелью.
 best <- function(state, outcome_name) {
   setwd("~/Documents/prog/coursera/course2/pa3/rprog-data-ProgAssignment3-data")
   outcome <- read.csv("outcome-of-care-measures.csv", colClasses = "character")

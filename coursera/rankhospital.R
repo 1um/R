@@ -1,3 +1,4 @@
+# Нужно по больницам было вывести какой-то показатель(heart attack,heart failure...)  по конкретному штату(лучшее, i-тое, худшее)
 rankhospital <- function(state, outcome_name, num = "best") {
   setwd("~/Documents/prog/coursera/course2/pa3/rprog-data-ProgAssignment3-data")
   outcome <- read.csv("outcome-of-care-measures.csv", colClasses = "character")
